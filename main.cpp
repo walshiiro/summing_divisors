@@ -43,7 +43,7 @@ int main() {
     ull t=1,t1=1;
     for(ull i=0;i<=d1;i++) {
         if(a[i]!=-99) {
-            cout<<a[i]<<endl;
+            
             for (ull j = 1; j <= b[i]; j++) {
                 ull o=1;
                 for (ull ii=1;ii<=j;ii++)
@@ -51,7 +51,7 @@ int main() {
 
 
                 t1 += o;
-                cout<<t1<<endl;
+               
 
             }
             t *= t1;
